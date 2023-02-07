@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+*{ 
+    font-size: 1rem;
+    font-family: 'Cinzel', serif;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: #4f74e3; */
+}
+
+header .topImg {
+    width: 80%;
+    height: 10%;
+    margin: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 80%;
+    height: 60%;
+    background-color: #153184;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    /* width: 20%; */
+    text-transform: uppercase;
+    margin: auto 20px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: auto 5px;
+   
+
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: #153184;
+    font-size: 3rem;
+}
+
+h1 span {
+color: red;
+font-size: 3rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+}
+
+section div {
+    width: 70%;
+    text-transform: none;
+    font-family: 'Lora', serif;
+    line-height: 30px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 80%;
+    height: 20%;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+    height: 20%;
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    margin: auto 4px;
+
+
+}
+footer ul li a:link {
+    text-decoration: none;
+    color: #4169e1;
+    
+
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #4169e1;
+    
+}
+
+
+
+#copyr {
+    font-size: 0.75rem;
+    margin: 0 100px;
+}

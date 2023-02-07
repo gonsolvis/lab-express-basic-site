@@ -34,7 +34,7 @@ You should use `express` to create your app, build the routing logic with the bu
 3. A **Works** page, where you showcase some of the work of the person you chose.
 4. Bonus: A **Photo Gallery** page, displaying some pictures of the person/their work.
 
-You should go through the following steps:
+You should go through the following steps:npm i
 
 1. Run `npm init -y` to create a package.json file.
 2. Run `npm install express` to install the Express package.
